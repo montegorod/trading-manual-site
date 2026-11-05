@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Analysis — free workbook · Reliable Investments</title>
+<meta name="description" content="Free technical analysis workbook: 14 chapters, 44 charts, practice and checklists. Download the PDF in Telegram.">
+<style>
+  :root { --ink:#1b1f24; --muted:#6d737a; --line:#e2ddd2; --paper:#fbf9f4; --accent:#8a6a1f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia,"Times New Roman",serif; color:var(--ink); background:var(--paper); line-height:1.55; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 22px; }
+  .brand { font-family:"Segoe UI",Arial,sans-serif; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); }
+  header { padding: 26px 0 10px; }
+  .kicker { font-family:"Segoe UI",Arial,sans-serif; font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); margin:46px 0 14px; }
+  h1 { font-size: 42px; line-height:1.1; margin:0 0 18px; }
+  .lead { font-size:19px; color:#333; margin:0 0 26px; max-width:640px; }
+  .cta-row { display:flex; flex-wrap:wrap; gap:12px; margin:0 0 14px; }
+  .btn { display:inline-block; padding:14px 22px; border-radius:3px; font-family:"Segoe UI",Arial,sans-serif; font-size:15px; font-weight:600; text-decoration:none; }
+  .btn-primary { background: var(--accent); color:#fff; }
+  .btn-ghost { border:1px solid var(--line); color:var(--ink); }
+  .hint { font-size:13px; color:var(--muted); font-family:"Segoe UI",Arial,sans-serif; }
+  hr { border:0; border-top:1px solid var(--line); margin:42px 0; }
+  h2 { font-size:24px; margin:0 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
+  .card { border:1px solid var(--line); padding:18px; background:#fff; }
+  .card b { display:block; font-size:17px; margin-bottom:6px; }
+  .card span { color:var(--muted); font-size:14px; }
+  ol.chapters { padding-left:20px; columns:2; column-gap:34px; font-size:15px; }
+  ol.chapters li { margin-bottom:7px; break-inside:avoid; }
+  .note { border-left:3px solid var(--accent); background:#fff; padding:14px 18px; font-size:14px; color:#444; margin:30px 0; }
+  footer { padding:34px 0 60px; font-size:12px; color:var(--muted); font-family:"Segoe UI",Arial,sans-serif; }
+  footer a { color:var(--accent); }
+  @media (max-width:640px) { h1 { font-size:32px; } ol.chapters { columns:1; } }
+</style>
+</head>
+<body>
+
+<header class="wrap"><div class="brand">Reliable Investments Company</div></header>
+
+<main class="wrap">
+  <div class="kicker">Free workbook · 14 evenings</div>
+  <h1>Technical analysis without the fluff</h1>
+  <p class="lead">
+    A distilled guide: 14 chapters, 44 charts, practice tasks and checklists.
+    Only what is actually used on the chart — structure, levels, volume, risk.
+  </p>
+
+  <div class="cta-row">
+    <a class="btn btn-primary" id="tg" href="#" rel="noopener">Get the PDF in Telegram</a>
+    <a class="btn btn-ghost" id="direct" href="#" rel="noopener">Download directly</a>
+  </div>
+  <p class="hint">PDF, 69 pages, 44 charts. No sign-up, no payment.</p>
+
+  <hr>
+
+  <h2>What is inside</h2>
+  <div class="grid">
+    <div class="card"><b>14 chapters</b><span>From "why bother" to a system, a journal and a workshop.</span></div>
+    <div class="card"><b>44 charts</b><span>Drawn for this book: trends, patterns, levels, indicators.</span></div>
+    <div class="card"><b>12 tasks</b><span>One per chapter, 15–30 minutes, no money at risk.</span></div>
+    <div class="card"><b>Checklist & glossary</b><span>66 terms and a seven-question card before every entry.</span></div>
+  </div>
+
+  <hr>
+
+  <h2>Contents</h2>
+  <ol class="chapters">
+    <li>Why this workbook exists</li>
+    <li>What technical analysis is</li>
+    <li>From rice candles to algorithms</li>
+    <li>The chart: how to read price</li>
+    <li>Trend and market structure</li>
+    <li>Levels: where the market makes decisions</li>
+    <li>Volume: what it really shows</li>
+    <li>Reversal patterns</li>
+    <li>Continuation patterns and gaps</li>
+    <li>Candlestick patterns</li>
+    <li>Moving averages</li>
+    <li>Indicators without illusions</li>
+    <li>From analysis to a system</li>
+    <li>Practice, checklist and glossary</li>
+  </ol>
+
+  <div class="note">
+    This is educational material. It does not promise returns and is not investment advice.
+    Trading involves the risk of losing capital.
+  </div>
+
+  <h2>How to get it</h2>
+  <p>
+    Press "Get the PDF in Telegram" — the bot sends the file when you type the code word
+    <b>PRACTICE</b>. The same channel covers market reviews and the copy-trading service.
+  </p>
+</main>
+
+<footer class="wrap">
+  © Reliable Investments Company, 2026 ·
+  <a id="ch" href="#" rel="noopener">Telegram channel</a> ·
+  <a href="/index.html">Русская версия</a><br><br>
+  Educational material, not investment advice. Trading carries the risk of losing capital.
+</footer>
+
+<script>
+  const LINKS = {
+    bot: "https://t.me/RICbooks_bot?start=site_en",
+    channel: "https://t.me/RICforex",
+    file: "manual-en.pdf",
+  };
+  document.getElementById("tg").href = LINKS.bot;
+  document.getElementById("ch").href = LINKS.channel;
+  if (LINKS.file !== "#") {
+    document.getElementById("direct").href = LINKS.file;
+  } else {
+    document.getElementById("direct").style.display = "none";
+  }
+</script>
+
+</body>
+</html>
