@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://montegorod.github.io/trading-manual-site/sitemap.xml
